@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="AgriEstimate helps farmers calculate fertilizer, seed requirements, spacing and estimated yield.">
+  <title>AgriEstimate | Farming Calculator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="hero">
+    <nav class="container">
+      <a class="brand" href="index.html">🌱 AgriEstimate</a>
+    </nav>
+    <div class="hero-content container">
+      <p class="eyebrow">A simple farming assistant</p>
+      <h1>Plan better. Grow smarter.</h1>
+      <p>Calculate fertilizer requirements, seed rate and spacing, and estimate crop yield.</p>
+      <a class="primary-button" href="#calculators">Choose a calculator</a>
+    </div>
+  </header>
+
+  <main class="container" id="calculators">
+    <section class="intro">
+      <h2>Choose a calculator</h2>
+      <p>Select the service you need to continue to its calculation page.</p>
+    </section>
+
+    <section class="choice-grid" aria-label="Agricultural calculators">
+      <a class="choice-card" href="fertilizer.html">
+        <span class="choice-icon">🧪</span>
+        <h2>Fertilizer</h2>
+        <p>Calculate Urea, SSP and MOP requirements from the recommended NPK dose.</p>
+        <span class="card-link">Open calculator →</span>
+      </a>
+
+      <a class="choice-card" href="seed.html">
+        <span class="choice-icon">🌾</span>
+        <h2>Seed rate & spacing</h2>
+        <p>Find seed quantity, row spacing, plant spacing and expected population.</p>
+        <span class="card-link">Open calculator →</span>
+      </a>
+
+      <a class="choice-card" href="yield.html">
+        <span class="choice-icon">📈</span>
+        <h2>Yield estimation</h2>
+        <p>Estimate maize yield using spacing, crop population and cob information.</p>
+        <span class="card-link">Open calculator →</span>
+      </a>
+    </section>
+
+    <p class="disclaimer">Educational prototype: crop recommendations vary by variety, soil test, season, location and local agricultural guidelines.</p>
+  </main>
+
+  <footer><p>AgriEstimate · Smart calculations for better farming</p></footer>
+</body>
+</html>
